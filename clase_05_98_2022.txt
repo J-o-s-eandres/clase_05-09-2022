@@ -1,0 +1,56 @@
+POLÍTICAS DE NEGOCIO
+
+SQL SERVER:
+
+master es una base de datos del sistema
+
+IN = OPCINES
+
+CHECK IN = OPCIONES VALIDAS(solo puede tener uno de ciertos valores)
+
+CHECK LIKE = PATRÓN DE DATOS(SE INDICA EL COMO SE DEBE ESCRIBIR)
+TODO LO QUE ESTA EN [] REPRESENTA UN CARACTER
+
+FUNCIONES DEL SISTEMA Y FUNCIONES DEFINIDAS POR EL USUARIO
+
+UNA FK PUEDE QUEDAR VACIA(productos sin marcas)
+
+una clave primaria puede tener otro nombre en la tabla a ser referenciada
+
+todas las foraneas son primarias en su tabla de origen
+
+INNER JOIN
+ON tabla-principal.fk = tabla-externa.PK 
+O viceversa
+
+
+tabla.campo(obligatorio)= cuando la consula cuando es multitabla
+
+
+WHEN ------>Then
+cuando	     Entonces
+
+Convertir contultas grandes en vistas para poder reutilizar
+view=vista (objeto)
+
+
+UPDATE PARA ACTUALIZAR CONTENIDO
+ALTER TABLE PARA MODIFICAR LA ESTRUCTURA TABLA MISMA
+
+ALTER:
+AGREGAR UNA COLUMNA (ADD)
+ELIMINAR COLUMNA (DROP COLUMN)
+ELIMINAR RESTRICCIONES
+MODFICIAR TIPO(LONGITUD)
+AGREGAR RESTRICCIONES
+
+NO SE LE PUEDE HACER ALTER A UN CAMPO CON RESTRICCION
+
+SP=STORE PROCEDURED 
+PROGRAMA EJECUTADO SOBRE EL MOTOR DE LA BD
+
+
+siempre guardar fecha y hora
+
+
+
